@@ -1,0 +1,88 @@
+.head{ 
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-box{
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    height: 335px; 
+    width: 450px;
+    border: 2px solid;
+    margin: 0 auto; 
+    padding: 25px; 
+}
+
+
+h3 {
+  text-align: center; 
+  color: grey; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: normal; 
+    font-size: 28px; 
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=button] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 181, 30);
+  }
+
+  a.forgot:link {
+      color: blue;
+      text-decoration:none;
+    }
+  a.forgot {
+      float: right; 
+  }
+
+  .help{
+    color: blue;
+    text-decoration:none;
+  }
+  
+  input[type=create] {
+    background-color: lightgrey; 
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ; 
+  } 
+
+  footer{
+    text-align: center;
+    margin-top: 100px;
+  }
+
